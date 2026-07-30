@@ -1,0 +1,10 @@
+{
+  "name": "DreamGlow Nally | Decoración con globos",
+  "short_name": "DreamGlow Nally",
+  "description": "Decoraciones personalizadas con globos para eventos especiales.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff9f7",
+  "theme_color": "#461554",
+  "icons": [{ "src": "/og-image.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }]
+}

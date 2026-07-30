@@ -1,0 +1,22 @@
+@media (max-width: 700px) {
+  .nav {
+    left: 12px !important;
+    width: calc(100% - 24px) !important;
+    top: 8px !important;
+  }
+
+  .hero { padding-top: 118px; }
+  .hero-scene { height: 405px; margin-bottom: -24px; }
+  .package-grid { padding: 0 4px; }
+  .gallery-image { min-height: 150px; }
+  .cta { padding-bottom: 94px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
