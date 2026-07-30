@@ -13,12 +13,13 @@ const WA = `https://wa.me/0000000000?text=${encodeURIComponent('Hola, vi la pág
 // react-countup is published as CommonJS. This keeps it compatible with Vite's ESM dev server.
 const CountUp = ((CountUpModule as unknown as { default?: ComponentType<{end:number;duration:number}> }).default ?? CountUpModule) as unknown as ComponentType<{end:number;duration:number}>;
 const gallery = [
-  {category:'cumple',src:'/fotos/IMG_3641.JPG.jpeg',title:'Fiesta temática',type:'image'},
-  {category:'cumple',src:'/fotos/IMG_3646.JPG.jpeg',title:'Diseños con personalidad',type:'image'},
-  {category:'elegante',src:'/fotos/IMG_3651.JPG.jpeg',title:'Detalles que enamoran',type:'image'},
-  {category:'baby',src:'/fotos/IMG_3659.JPG.jpeg',title:'Momentos para celebrar',type:'image'},
-  {category:'cumple',src:'/fotos/IMG_3667.JPG.jpeg',title:'Una fiesta para soñar',type:'image'},
-  {category:'elegante',src:'/fotos/IMG_3638.MP4',title:'DreamGlow en movimiento',type:'video'},
+  {category:'cumple',src:'/fotos/dreamglow-evento-01.png',title:'Fiesta temática',type:'image'},
+  {category:'cumple',src:'/fotos/dreamglow-evento-02.png',title:'Diseños con personalidad',type:'image'},
+  {category:'elegante',src:'/fotos/dreamglow-evento-03.png',title:'Detalles que enamoran',type:'image'},
+  {category:'baby',src:'/fotos/dreamglow-evento-04.png',title:'Momentos para celebrar',type:'image'},
+  {category:'cumple',src:'/fotos/dreamglow-evento-05.png',title:'Una fiesta para soñar',type:'image'},
+  {category:'elegante',src:'/fotos/dreamglow-evento-06.png',title:'Celebración con estilo',type:'image'},
+  {category:'baby',src:'/fotos/dreamglow-evento-07.png',title:'Detalles que ilusionan',type:'image'},
 ] as const;
 const services = [['✦','Cumpleaños','Escenarios felices para cada edad y estilo.'],['◌','Arcos de globos','Composiciones orgánicas que roban miradas.'],['♧','Mesas temáticas','Un rincón mágico pensado para celebrar.'],['♡','Baby showers','Dulces bienvenidas llenas de ternura.'],['✧','Fondos a medida','El marco perfecto para tus mejores fotos.'],['⌁','Detalles sorpresa','Globos personalizados para emocionar.']];
 
