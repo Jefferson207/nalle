@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jefferson207.github.io/nalle/sitemap.xml
+Sitemap: https://nally.vercel.app/sitemap.xml
